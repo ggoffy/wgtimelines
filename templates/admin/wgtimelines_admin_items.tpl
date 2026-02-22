@@ -31,7 +31,7 @@
 <!-- Header -->
 <{include file='db:wgtimelines_admin_header.tpl'}>
 <{if $items_list|default:false}>
-    <table class='table table-bordered' id='sortable-items'>
+    <table class='outer' id='sortable-items'>
     <thead>
         <tr class="head">
             <th class="center">&nbsp;</th>

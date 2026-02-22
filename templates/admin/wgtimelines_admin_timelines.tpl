@@ -1,7 +1,7 @@
 ﻿<!-- Header -->
 <{include file='db:wgtimelines_admin_header.tpl'}>
 <{if $timelines_list|default:false}>
-<table class='table table-bordered' id="sortable-timelines">
+<table class='outer' id="sortable-timelines">
     <thead>
         <tr class="head">
             <th class="center">&nbsp;</th>

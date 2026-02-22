@@ -1,7 +1,7 @@
 <!-- Header -->
 <{include file='db:wgtimelines_admin_header.tpl'}>
 <{if $templates_list|default:false}>
-<table class='table table-bordered'>
+<table class='outer'>
     <thead>
         <tr class="head">
             <th class="center"><{$smarty.const._AM_WGTIMELINES_TEMPLATE_NAME}></th>
